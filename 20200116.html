@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap" rel="stylesheet">
+
+
+
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        div.menu {
+            align-content: center; -webkit-position: sticky; 
+            -ms-position: sticky;
+            -mozila-position: sticky; 
+            position: sticky; top: 0;
+            z-index: 2;
+        }
+
+        div#ct {
+            float: right
+        }
+
+        ul li {
+            border: 1px solid #ddd;
+            font-size: 20px;
+            width: 90px;
+            padding: px;
+            text-align: center;
+            margin: px;
+            color: whitesmoke;
+                            
+        }
+        
+        
+
+        ul.block li {
+            display: inline-block;
+            
+        }
+
+        li:hover {
+            background-color: palevioletred
+        }
+
+        div.max {
+            background-image: url(max.jpg);
+            object-fit: cover;
+            height: 500px;
+            position: relative;
+            overflow: hidden
+        }
+        
+        
+        div.run {
+            background-image: url(run.jpg);
+            object-fit: cover;
+            height: 500px;
+            position: relative;
+            overflow: hidden
+        }
+
+        .logo {
+            text-align: center;
+            font-size: 50px;
+            color: white;
+            border: 1px solid white;
+            width: 500px;
+            position: absolute;
+            left: 38%;
+            top: 50%;
+            border-radius: 20px;            
+            font-family: 'Black Han Sans', sans-serif;
+
+        }
+        
+        .joy {
+            text-align: center;
+            font-size: 45px;
+            color: white;
+            border: 1px solid #D9CDBF;
+            width: 520px;
+            position: absolute;
+            left: 38%;
+            top: 50%;
+            border-radius: 20px;            
+            font-family: 'Black Han Sans', sans-serif;
+
+        }
+
+        footer#ls {
+            letter-spacing: 3px; text-align: center
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <div align="center" id="logo">
+        <img src="logo.jpg" width="200">
+    </div>
+
+
+    <div class="fas fa-shopping-cart fa-3x" style="color: whitesmoke;" onclick="cart()" id="ct"></div>
+
+
+    <div class="menu">
+        <center>
+            <ul class="block">
+                <li>MAN</li>
+                <li>WOMAN</li>
+                <li>KIDS</li>
+                <li>SALE</li>
+                <li>BRAND</li>
+                <li>NIKE+</li>
+            </ul>
+        </center>
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+        <form action="https://www.nike.com/kr/ko_kr/search?" method="get">
+            <fieldset>
+                <center>
+                    <label for="search"></label>
+                    <input type="search" name="q" id="search" size="92%" placeholder="제품 검색">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </center>
+            </fieldset>
+        </form>
+    </div>
+    <br>
+    <br>
+
+    <div class="max">
+
+        <p class="logo">나이키 에어맥스90<br>
+            정해진 틀을 거부하다.</p>
+
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <hr>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+    <div class="run">
+        
+        <p class="joy">나이키 조이라이드 듀얼 런</p>
+        
+    </div>
+    
+    
+    
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer id="ls">
+        <p></p>ABOUT NIKE<p></p>
+        Our mission is what drives us to do everything possible to expand human potential. We do that by creating groundbreaking sport innovations, by making our products more sustainably, by building a creative and diverse global team and by making a positive impact in communities where we live and work.
+
+        Based in Beaverton, Oregon, NIKE, Inc. includes the Nike, Converse, Hurley, and Jordan brands.
+    </footer>
+
+
+
+
+
+
+
+
+
+</body></html>
